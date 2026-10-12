@@ -122,6 +122,11 @@
         <td>Our backend server (Railway) — used to process that charge</td>
       </tr>
       <tr>
+        <td><strong>Payment Authorization Record</strong></td>
+        <td>The version of the Terms you accepted and the time, when you save a card</td>
+        <td>With Stripe, on your customer record — kept as evidence that you authorized monthly charges</td>
+      </tr>
+      <tr>
         <td><strong>Payment History</strong></td>
         <td>Charge timestamps, amounts, and success/failure status</td>
         <td>On your device (local Room database). Stripe also keeps a record of each charge</td>
@@ -145,7 +150,8 @@
 
   <h2>3. How We Use Your Information</h2>
   <ul>
-    <li><strong>Processing monthly charges:</strong> When a completed month is charged on the 1st, the amount is sent to our backend to process that charge.</li>
+    <li><strong>Processing monthly charges:</strong> When a completed month is charged on the 3rd, the amount is sent to our backend to process that charge.</li>
+    <li><strong>Payment authorization:</strong> The Terms version and time recorded when you save a card are used only to show that you authorized the charges, for example if a charge is disputed.</li>
     <li><strong>Diagnostics:</strong> Crash reports are used to find and fix defects in the app.</li>
     <li><strong>App functionality:</strong> Usage data is used solely within the app to calculate charges and display your dashboard.</li>
   </ul>

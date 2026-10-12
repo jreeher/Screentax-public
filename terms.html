@@ -85,17 +85,19 @@
     <li><strong>Billable minutes</strong> = Total usage minutes − Free allowance minutes (minimum 0)</li>
     <li><strong>Charge</strong> = (Billable minutes ÷ 60) × Hourly rate</li>
   </ul>
-  <p>Charges accumulate over each calendar month. The completed month's total is processed automatically on the <strong>1st at approximately 6:00 AM</strong> local time. If the App cannot run then, the charge is attempted the next time you open it, still for the same month. Charges below the payment processor's minimum transaction amount of <strong>$0.50</strong> are skipped for that month and are not carried forward.</p>
+  <p>Charges accumulate over each calendar month. On the 1st, the App closes the month that just ended and notifies you of its final total. That total is charged automatically on the <strong>3rd, from approximately 6:00 AM</strong> local time. If the App cannot run then, the charge is attempted the next time it can, still for the same month. Charges below the payment processor's minimum transaction amount of <strong>$0.50</strong> are skipped for that month and are not carried forward.</p>
   <p>Your monthly charge is capped at <strong>$25.00</strong> regardless of usage, as a safety limit against misconfiguration or inaccurate usage data.</p>
 
   <div class="callout">
-    <strong>Uninstalling the App:</strong> Charges are initiated by the App on your device. If you uninstall Screen Tax before a month's charge has been processed, that charge will not be collected, and all locally stored data is removed by Android. Charges already processed before uninstalling are not automatically reversed; see Section 6 for refunds.
+    <strong>Stopping charges:</strong> You can stop charges at any time in the App under Settings &rarr; Payment &rarr; Stop Charges &amp; Remove Card, or by emailing <a href="mailto:admin@invert-able.com">admin@invert-able.com</a>. This removes your saved card and stops all future charges, including any month not yet charged.<br><br>
+    <strong>Uninstalling the App:</strong> Charges are initiated by the App on your device. If you uninstall Screen Tax before a month's charge has been processed, that charge will not be collected, and all locally stored data is removed by Android.<br><br>
+    Charges already processed before you stop charges or uninstall are not automatically reversed; see Section 6 for refunds.
   </div>
 
   <h2>4. Payment and Card Storage</h2>
   <p>All payment processing is handled by <strong>Stripe</strong>, a third-party payment processor. Screen Tax does not store your full card number, CVV, or billing address. The App retains only your Stripe Customer ID, the last four digits of your card, and your card brand for display purposes.</p>
-  <p>By providing your payment information, you authorize Screen Tax to charge your card on the monthly schedule described above for as long as the App is installed and active, or until you revoke authorization by contacting support.</p>
-  <p>If a charge fails, the App retries it automatically once a day, up to five more times. If every attempt fails, the charge is marked as failed and no further automatic attempts are made; you can still retry it manually from the App's Settings.</p>
+  <p>By providing your payment information, you authorize Invert LLC to charge your card on the 3rd of each month for the previous month's usage, as described above, until you stop charges or uninstall the App. When you save a card, a record of this authorization (the Terms version you accepted and the time) is kept with Stripe.</p>
+  <p>If a charge fails, the App retries it automatically once a day, up to five more times. If every attempt fails, the charge is marked as failed and no further automatic attempts are made; you can still retry it manually from the App's Settings. If your card's issuer says a card must not be charged again (for example, it was reported lost or stolen), automatic retries stop immediately and you will be asked to update your card.</p>
   <p>Screen Tax has no user accounts. Your payment method is linked to this installation of the App; if you reinstall, you will need to add your card again. See our <a href="privacy.html">Privacy Policy</a> for what information is handled.</p>
 
   <h2>5. Where Your Money Goes</h2>
