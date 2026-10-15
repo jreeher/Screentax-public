@@ -87,7 +87,7 @@
   <p>This Privacy Policy explains how Invert LLC, the operator of Screen Tax ("we," "us," or "our"), collects, uses, and protects information when you use our mobile application. We built Screen Tax with a minimal-data philosophy — your detailed screen time data stays on your device.</p>
 
   <div class="callout">
-    <strong>The short version:</strong> Your per-app screen time data and app settings never leave your phone. There are no accounts — we don't collect your email address or a password. We send only what's needed to charge your card, plus crash diagnostics. Details below.
+    <strong>The short version:</strong> Your per-app screen time data and app settings never leave your phone. There are no accounts or passwords. We send only what's needed to charge your card and email you receipts and billing notices, plus crash diagnostics. Details below.
   </div>
 
   <h2>1. Information We Collect</h2>
@@ -122,6 +122,11 @@
         <td>Our backend server (Railway) — used to process that charge</td>
       </tr>
       <tr>
+        <td><strong>Email Address</strong></td>
+        <td>The address you give when you save a card (or change in Settings), and whether you chose to receive occasional product updates</td>
+        <td>With Stripe, on your customer record</td>
+      </tr>
+      <tr>
         <td><strong>Payment Authorization Record</strong></td>
         <td>The version of the Terms you accepted and the time, when you save a card</td>
         <td>With Stripe, on your customer record — kept as evidence that you authorized monthly charges</td>
@@ -152,12 +157,14 @@
   <ul>
     <li><strong>Processing monthly charges:</strong> When a completed month is charged on the 3rd, the amount is sent to our backend to process that charge.</li>
     <li><strong>Payment authorization:</strong> The Terms version and time recorded when you save a card are used only to show that you authorized the charges, for example if a charge is disputed.</li>
+    <li><strong>Email:</strong> Your email address is used for charge receipts, a copy of your charge terms when you save a card, a yearly reminder of those terms while charges are active, and billing and service notices. Product updates are sent only if you opted in, and each includes a way to unsubscribe. You can change your email in Settings &rarr; Payment.</li>
     <li><strong>Diagnostics:</strong> Crash reports are used to find and fix defects in the app.</li>
     <li><strong>App functionality:</strong> Usage data is used solely within the app to calculate charges and display your dashboard.</li>
   </ul>
 
   <h2>4. Third-Party Services</h2>
   <p><strong>Stripe</strong> — We use Stripe to process all payments. When you set up a card, Stripe collects and stores your payment information directly. We receive only a Customer ID and card display info (last 4 digits, brand) in return. Stripe's Privacy Policy is available at <a href="https://stripe.com/privacy" target="_blank">stripe.com/privacy</a>.</p>
+  <p><strong>Resend</strong> — Emails from Screen Tax (your terms and the yearly reminder) are delivered through Resend, which receives your email address and the message only to deliver it. Receipts are sent by Stripe.</p>
   <p><strong>Google Firebase</strong> — We use Firebase Crashlytics for crash reporting. We do not use analytics or the advertising ID. Crash reports include your monthly charge amount. Google's privacy practices are described at <a href="https://firebase.google.com/support/privacy" target="_blank">firebase.google.com/support/privacy</a>.</p>
   <p>We do not use advertising networks or cross-app tracking services.</p>
 
