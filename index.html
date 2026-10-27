@@ -301,7 +301,7 @@
           <li><strong>No accounts:</strong> Screen Tax has no login or password. You give an email address when you save a card; it's kept with Stripe and used for receipts, a copy of your terms, a yearly reminder and billing notices. Your saved payment method is tied to the app on your phone, so if you reinstall you add your card again.</li>
           <li><strong>What our server sees:</strong> a token naming your Stripe customer and the dollar amount of a month at the moment it is charged. It keeps no database of its own.</li>
           <li><strong>Your card:</strong> card details are collected and stored by Stripe. Screen Tax keeps only a Stripe customer ID, the last four digits, and the card brand.</li>
-          <li><strong>Google Firebase Crashlytics</strong> is used for crash reports, which can include a month&rsquo;s charge amount. No analytics or advertising ID.</li>
+          <li><strong>Google Firebase</strong> is used for crash reports (Crashlytics), which can include a month&rsquo;s charge amount, and for occasional announcements (Cloud Messaging), which use a random push token. No analytics or advertising ID.</li>
           <li><strong>No ads, no selling:</strong> we don&rsquo;t use advertising networks or cross-app tracking, and we don&rsquo;t sell your data.</li>
         </ul>
         <p>
